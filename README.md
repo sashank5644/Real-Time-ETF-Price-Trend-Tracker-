@@ -1,25 +1,29 @@
 # Real-Time-ETF-Price-Trend-Tracker
 A React-based web application designed to help users track Exchange Traded Funds (ETFs) with ease. The app features a simple and intuitive interface, allowing users to view real-time price trends of various ETFs.
 
-Overview
+# Overview
 
 This project is a React component that visualizes stock market data using Plotly.js. It fetches data from the Financial Modeling Prep API and displays ETF (Exchange-Traded Fund) prices as a line chart. The component is designed to be simple and easy to integrate into any React application.
 
+# Purpose
 
-Features
+The purpose of this project is to allow for easy insightful information extraction from live Exhange-Traded Funds for various groups.
+
+
+# Features
 
 Fetches ETF data from Financial Modeling Prep API.
 Visualizes ETF price trends using Plotly.js.
 Displays a line chart with markers for each ETF symbol and price.
 
 
-Prerequisites
+# Prerequisites
 
 Node.js (v14 or later)
 npm (v6 or later) or yarn (v1 or later)
 
 
-Installation and Setup
+# Getting Started
 
 Create new react project
 
