@@ -3,7 +3,7 @@ A React-based web application designed to help users track Exchange Traded Funds
 
 # UI
 <img width="1294" alt="Screen Shot 2024-10-12 at 11 05 01 PM" src="https://github.com/user-attachments/assets/75843196-78b7-4d7e-8ef8-67304633d63f">
-
+<img width="1287" alt="Screen Shot 2024-10-12 at 11 04 36 PM" src="https://github.com/user-attachments/assets/c0307cf0-c8de-489b-aeb9-dd48009b25ab">
 
 # Overview
 
