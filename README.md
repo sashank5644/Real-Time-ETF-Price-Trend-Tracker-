@@ -2,6 +2,7 @@
 A React-based web application designed to help users track Exchange Traded Funds (ETFs) with ease. The app features a simple and intuitive interface, allowing users to view real-time price trends of various ETFs.
 
 # UI
+<img width="1294" alt="Screen Shot 2024-10-12 at 11 05 01 PM" src="https://github.com/user-attachments/assets/75843196-78b7-4d7e-8ef8-67304633d63f">
 
 
 # Overview
