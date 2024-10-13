@@ -37,15 +37,16 @@ Add your API key in Stock.js file "YOUR API KEY HERE"
 
     git clone <repository-url>
 
-**Navigate to stmarket directory**
-
-    cd stmarket
-
 **Intall Dependencies**
 
     npm install react-plotly.js plotly.js
     npm install --save-dev @types/react-plotly.js
     npm install react-router-dom
+
+**Navigate to stmarket directory**
+
+    cd stmarket
+
 
 **Run Application**
 
