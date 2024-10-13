@@ -25,36 +25,28 @@ npm (v6 or later) or yarn (v1 or later)
 
 # Getting Started
 
-Create new react project
+**Clone Repository**
 
-    npx create-react-app stmarket
+    git clone <repository-url>
 
-Clone git repository
+**Navigate to stmarket directory**
 
-    git clone https://github.com/your-username/your-repo.git
+    cd stmarket
 
-    cd your-repo
-
-    npm install
-    or
-    yarn install
+**Intall Dependencies**
 
     npm install react-plotly.js plotly.js
-    or
-    yarn add react-plotly.js plotly.js
-
+    npm install --save-dev @types/react-plotly.js
     npm install react-router-dom
 
+**API**
 
-MAKE SURE TO PLACE COMPONENTS and CONSTANTS folders inside src folder for your project.
-
-REPLACE the App.js from this git with the one you have.
-
-
-API
-
-Head over to Financial Modeling Prep ("https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=coinmonks&utm_campaign=coinmonks24&utm_medium=medium&utm_source=medium") website to create an API key for free.
+Head over to Financial Modeling Prep [FMP]("https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=coinmonks&utm_campaign=coinmonks24&utm_medium=medium&utm_source=medium") website to create an API key for free.
 Add your API key in Stock.js file "YOUR API KEY HERE"
+
+**Run Application**
+
+    npm start
 
 
 Go to "http://localhost:3000" to view the ETF Price Trend Tracker
