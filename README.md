@@ -23,6 +23,13 @@ Node.js (v14 or later)
 npm (v6 or later) or yarn (v1 or later)
 
 
+**API**
+
+Head over to Financial Modeling Prep [FMP](https://site.financialmodelingprep.com/)  website to create an API key for free.
+Add your API key in Stock.js file "YOUR API KEY HERE"
+
+
+
 # Getting Started
 
 **Clone Repository**
@@ -38,11 +45,6 @@ npm (v6 or later) or yarn (v1 or later)
     npm install react-plotly.js plotly.js
     npm install --save-dev @types/react-plotly.js
     npm install react-router-dom
-
-**API**
-
-Head over to Financial Modeling Prep [FMP](https://site.financialmodelingprep.com/)  website to create an API key for free.
-Add your API key in Stock.js file "YOUR API KEY HERE"
 
 **Run Application**
 
