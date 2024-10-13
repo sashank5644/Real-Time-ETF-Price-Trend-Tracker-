@@ -20,6 +20,7 @@ Displays a line chart with markers for each ETF symbol and price.
 # Prerequisites
 
 Node.js (v14 or later)
+
 npm (v6 or later) or yarn (v1 or later)
 
 
