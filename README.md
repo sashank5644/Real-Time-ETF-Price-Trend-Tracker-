@@ -41,7 +41,7 @@ npm (v6 or later) or yarn (v1 or later)
 
 **API**
 
-Head over to Financial Modeling Prep [FMP]("https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=coinmonks&utm_campaign=coinmonks24&utm_medium=medium&utm_source=medium")  website to create an API key for free.
+Head over to Financial Modeling Prep [FMP](https://site.financialmodelingprep.com/)  website to create an API key for free.
 Add your API key in Stock.js file "YOUR API KEY HERE"
 
 **Run Application**
