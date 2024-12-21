@@ -1,45 +1,72 @@
+#main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/stock.jpeg);
+    background-size: cover;
+}
+
+.upperPannel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+}
+
 .stock-container {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center horizontally */
-    position: relative; /* For positioning the back button */
-    height: 100vh; /* Full viewport height */
-    background-color: #4e2a2a; /* Dark background for visibility */
-    color: #ffffff; /* Light text color */
-    opacity: 0.9; /* Optional: add slight transparency to see the image through */
+    flex-direction: row;
+    align-items: flex-start; 
+    position: relative;
+    height: 100vh; 
+    background: rgba(86,86,86,0.3);
+    backdrop-filter: blur(6px);
+    margin:10px;
 }
 
 .stock-title {
     display: flex;
     color: #0eb516;
-    margin-top: 100px; /* Space above the title */
+    margin-top: 100px; 
 }
 
 .back-button {
-    position: absolute; /* Position it in the top-left */
-    top: 20px; /* Distance from top */
-    left: 20px; /* Distance from left */
-    padding: 15px 70px; /* Button padding */
-    background-color: #cbcf0f; /* Button color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 15px 70px;
+    background-color: #cbcf0f; 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
 }
 
 .back-button:hover {
-    background-color: #098d35; /* Darker shade on hover */
+    background-color: #098d35; 
     transform: scale(1.05);
 }
 
-.title {
-    text-align: center; /* Center title text */
+.upperPannel .title {
+    top: 25px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(204, 178, 34, 0.746);
+    background-color: black;
 }
 
 .plot-container {
     display: flex;
-    justify-content: center; /* Center the plot container */
-    align-items: center; /* Center vertically */
-    width: 100%; /* Full width */
-    margin-top: 40px; /* Adjusted space to move the graph down */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100; 
+    height: 90vh;
+    margin: 30px;
+}
+
+.plot {
+    border: 10px solid black;
 }
